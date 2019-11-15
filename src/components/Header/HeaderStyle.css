@@ -6,10 +6,12 @@ body{
 .navbar{
     width: 100%;
     height: 70px;
+    background-color: #040509;
 }
 
 a{
     text-decoration: none;
+    color:white;
 }
 
 ul{
@@ -39,7 +41,8 @@ a:link.proximity-header-logo{
 
 .navbar-links ul{
     padding-top:11px;
-    width:466px;
+    /* width:466px; */ /*the size required for login */
+    width: 500px; 
     padding-left: 400px
 }
 
@@ -48,9 +51,11 @@ a:link.proximity-header-logo{
 }
 
 .navbar-links li a{
+    font-weight: bold;
+    font-size: 16px;
     margin: 0;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 14px;
 }
 
 .navbar-login{

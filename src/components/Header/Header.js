@@ -3,13 +3,13 @@ import './HeaderStyle.css'
 
 export default function Header(){
     return(
-        <div>
-            <div class="navbar">
-                <div class="logo">
-                    <a href="#" target="#" class="proximity-header-logo">Proximity-eSports</a>
-                    <a href="#" target="_blank" class="proximity-subheader-logo">Buy customized gaming rigs!</a>
+        <div className="main-container">
+            <div className="navbar">
+                <div className="logo">
+                    <a href="#" target="#" className="proximity-header-logo">Proximity-eSports</a>
+                    <a href="#" target="_blank" className="proximity-subheader-logo">Buy customized gaming rigs!</a>
                 </div>
-                <div class="navbar-links">
+                <div className="navbar-links">
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">News</a></li>
@@ -19,7 +19,7 @@ export default function Header(){
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                {/* <div class="navbar-login">
+                {/* <div className="navbar-login">
                     <p><a href="#">Log In</a></p>
                 </div> */}
             </div>

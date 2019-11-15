@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from '../Header/Header'
+import Homepage from '../Homepage/Homepage'
 
 export default function Layout(){
     return(
-        <Header />
+        <Homepage />
     )
 }
